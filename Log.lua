@@ -35,10 +35,10 @@ function Log:debug(msg)
     self:print(self._l_log_level_debug, "[DEBUG]", msg)
 end
 function Log:info(msg)
-    self:print(self._l_log_level_info, "[INFO]", msg)
+    self:print(self._l_log_level_info, "[INFO ]", msg)
 end
 function Log:warn(msg)
-    self:print(self._l_log_level_info, "[WARN]", msg)
+    self:print(self._l_log_level_info, "[WARN ]", msg)
 end
 function Log:error(msg)
     self:print(self._l_log_level_info, "[ERROR]", msg)
