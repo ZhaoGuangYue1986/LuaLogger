@@ -18,3 +18,5 @@ end
 
 Log:setLogCallBack(log_callBack)
 Log:info("this msg is teat use self define log call back");
+
+Log:print(1,"xxx","yyy")

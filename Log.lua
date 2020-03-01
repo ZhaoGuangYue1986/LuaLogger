@@ -15,12 +15,6 @@ local Log = { _l_log_curr_level_ = 1,
               _l_log_level_warn = 2,
               _l_log_level_error = 3,
               _l_log_level_call_back_ = nil,
-              setLogCallBack = setLogCallBack,
-              setLogLevel = setLogLevel,
-              debug = debug,
-              info = info,
-              warn = warn,
-              error = error,
 }
 
 function Log:setLogCallBack(callback)
