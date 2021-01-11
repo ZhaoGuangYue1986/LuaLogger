@@ -1,5 +1,6 @@
 # LuaLogger
 一个超简单的LUA 日志工具（A very simple Lua Logger tool）
+欢迎大家到 http://www.ostack.cn 交流编程经验
 ## 使用方法（How to use）
 使用前需要require 本模块，通过返回的变量来调用提供的方法
 Should require Log first, then use the return val's function
