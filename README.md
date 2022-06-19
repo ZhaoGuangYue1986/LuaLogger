@@ -31,3 +31,9 @@ Log:info("this msg is teat use self define log call back");
 ##修改日志级别，默认打印info以上级别（Set log level，default is info）
 
 Log:setLogLevel(Log._l_log_level_error);
+
+
+# 相關倉庫
+https://github.com/ostack/LuaUnit
+https://github.com/ostack/LuaLogger
+https://github.com/ostack/LuaMock
